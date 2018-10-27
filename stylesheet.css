@@ -1,0 +1,27 @@
+html, body{
+  height: 100%;
+}
+
+.row {
+    margin: 10px;
+    border-color: red;
+    font-size: 17px;
+    width:100%;
+}
+
+#find {
+}
+
+#map{
+    display: block;
+    height: 90%;
+    margin: 0px;
+}
+
+.row input[type=text] {
+    width: inherit;
+    overflow: hidden;
+    float: right;
+    height: auto;
+    margin-right: -30px
+}
